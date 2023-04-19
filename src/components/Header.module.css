@@ -1,0 +1,30 @@
+.navBar{
+    width: 80vw;
+    margin: auto;
+    padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.navBar svg{
+    font-size: 2rem;
+}
+
+.navBar a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Lobster Two', cursive;
+}
+@media (max-width:800px){
+    .navBar{
+        display: flex;
+        justify-content: center;
+    }
+    .navBar svg{
+        font-size: 1.5rem;
+    }
+    .navBar a{
+        font-size: 1.35rem;
+    }
+}
