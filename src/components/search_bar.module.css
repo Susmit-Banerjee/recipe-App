@@ -1,0 +1,29 @@
+.form {
+  margin: 1rem auto;
+}
+.search {
+  margin: auto;
+  width: 40%;
+  position: relative;
+}
+.search input {
+  width: 100%;
+  border: none;
+  border-radius: 1rem;
+  background: linear-gradient(35deg, #494949, #313131);
+  color: white;
+  padding: 0.5rem 3rem;
+  font-size: 1rem;
+}
+.search svg {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 0%;
+  transform: translate(100%, -50%);
+}
+@media (max-width: 800px) {
+    .search{
+        width: 80%;
+    }
+}
